@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ehong Sun</title>
+  <meta name="description" content="Ehong Sun — software engineer. Johns Hopkins CS (MSE, BS) with a focus on web, mobile and AR software.">
+  <style>
+    :root { --bg: #fdfdfc; --fg: #1d1d1f; --muted: #6b6b70; --accent: #2b5fd9; --line: #e6e6e3; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #141416; --fg: #ececee; --muted: #9a9aa2; --accent: #7aa2ff; --line: #2a2a2e; }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; background: var(--bg); color: var(--fg);
+      font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    main { max-width: 640px; margin: 0 auto; padding: 72px 16px; }
+    h1 { font-size: 2.2rem; line-height: 1.2; margin: 0 0 4px; }
+    h2 { font-size: 1rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 48px 0 12px; }
+    h3 { font-size: 1.05rem; margin: 0; }
+    .tagline { color: var(--muted); margin: 0 0 24px; }
+    a { color: var(--accent); }
+    nav a { margin-right: 16px; }
+    ul { padding: 0; list-style: none; margin: 0; }
+    li { padding: 14px 0; border-top: 1px solid var(--line); }
+    li p { margin: 4px 0 0; }
+    .meta { color: var(--muted); font-size: .95rem; }
+    .avatar { width: 128px; height: 128px; border-radius: 50%; display: block; margin-bottom: 20px; }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="avatar" src="photo.jpg" alt="Photo of Ehong Sun" width="128" height="128">
+    <h1>Ehong Sun</h1>
+    <p class="tagline">Software engineer · Johns Hopkins Computer Science</p>
+    <nav>
+      <a href="mailto:ehongsun@outlook.com">Email</a>
+      <a href="https://www.linkedin.com/in/ehong-sun/">LinkedIn</a>    </nav>
+
+    <h2>About</h2>
+    <p>I build web, mobile and augmented reality software. I studied at Johns Hopkins University, where I earned an MSE in Computer Science, plus a BS in Computer Science (Honors) and a BA in Economics. My work ranges from internal tools used by hundreds of employees to AR apps that help speech-impaired users communicate.</p>
+    <p class="meta">I mostly work in TypeScript, C#, C++, Python, SQL and Java, with React, Angular, Node.js, React Native and Unity, on Azure, PostgreSQL, MongoDB and Firebase.</p>
+
+    <h2>Experience</h2>
+    <ul>
+      <li>
+        <h3>Software Engineer Intern, <a href="https://www.hanover.com/">The Hanover Insurance Group</a></h3>
+        <span class="meta">Jun – Aug 2024 · Worcester, MA</span>
+        <p>Built a document generation tool with versioned templates that replaced 10,000+ documents and cut generation time by 80%. I also built an office reservation system that 200+ employees now use.</p>
+      </li>
+      <li>
+        <h3>Software Engineer Intern, 3D Holo Group</h3>
+        <span class="meta">Jun – Oct 2023 · Fort Lauderdale, FL</span>
+        <p>Developed AR smart-glasses software for speech-impaired users, with gesture and object recognition, customizable text-to-speech and phrase suggestions. I also built the offline sync platform, which cut sync failures by 95%.</p>
+      </li>
+    </ul>
+
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <h3>HopDrop</h3>
+        <span class="meta">2023 – 2024 · $5K grant-awarded</span>
+        <p>A food delivery app for university dining halls (React Native, Firebase) with multi-stop route optimization and dynamic pricing, shaped by 50 student interviews.</p>
+      </li>
+      <li>
+        <h3>Delineo Disease Modeling</h3>
+        <span class="meta">2023</span>
+        <p>A 3D COVID-19 forecasting platform (Unity, C#). Calibrated models reduced 14-day forecast error by 30%, and a Docker framework put six disease simulators behind one API.</p>
+      </li>
+      <li>
+        <h3>Quest 2 Learn</h3>
+        <span class="meta">2022</span>
+        <p>Ten gamified AR science labs used in a Johns Hopkins course, letting students do lab work without physical equipment. Student satisfaction rose from 40% to 92%.</p>
+      </li>
+    </ul>
+  </main>
+</body>
+</html>
